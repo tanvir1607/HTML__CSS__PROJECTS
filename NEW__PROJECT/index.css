@@ -22,10 +22,28 @@ li {
 
 li:hover {
     color: blue;
-    cursor: pointer;
+    cursor: pi;
 }
 
 .menu-container {
     display: flex;
     gap: 20px;
 }
+
+.banner-image {
+    width: 350px;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+.banner-left {
+    width: 400px;
+    line-height: 2.5;
+}
+
